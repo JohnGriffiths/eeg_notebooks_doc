@@ -1,0 +1,58 @@
+
+
+Examples using ``fooof.FOOOF.add_data``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum models, directly from FOOOF objects.">
+
+.. only:: html
+
+ .. figure:: /auto_examples/plots/images/thumb/sphx_glr_plot_fooof_models_thumb.png
+
+     :ref:`sphx_glr_auto_examples_plots_plot_fooof_models.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_plots_plot_fooof_models.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="A step by step overview of the algorithm for parameterizing neural power spectra. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_03-FOOOFAlgorithm_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_03-FOOOFAlgorithm.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_03-FOOOFAlgorithm.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Further exploring the FOOOF object, including algorithm settings and available methods. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_04-MoreFOOOF_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_04-MoreFOOOF.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_04-MoreFOOOF.py`

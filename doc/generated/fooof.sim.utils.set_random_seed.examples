@@ -1,0 +1,94 @@
+
+
+Examples using ``fooof.sim.utils.set_random_seed``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="A description and introduction to the power spectrum model. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_01-ModelDescription_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_01-ModelDescription.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_01-ModelDescription.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Tips &amp; tricks for choosing algorithm settings, tuning fits, and troubleshooting. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_07-TroubleShooting_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_07-TroubleShooting.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_07-TroubleShooting.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_08-FurtherAnalysis_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_08-FurtherAnalysis.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_08-FurtherAnalysis.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Comparing how &#x27;Band-by-Band&#x27; approaches relate to periodic &amp; aperiodic components.">
+
+.. only:: html
+
+ .. figure:: /auto_motivations/measurements/images/thumb/sphx_glr_plot_BandByBand_thumb.png
+
+     :ref:`sphx_glr_auto_motivations_measurements_plot_BandByBand.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_motivations_measurements_plot_BandByBand.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Exploring how band ratio measures relate to periodic &amp; aperiodic activity. ">
+
+.. only:: html
+
+ .. figure:: /auto_motivations/measurements/images/thumb/sphx_glr_plot_BandRatios_thumb.png
+
+     :ref:`sphx_glr_auto_motivations_measurements_plot_BandRatios.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_motivations_measurements_plot_BandRatios.py`

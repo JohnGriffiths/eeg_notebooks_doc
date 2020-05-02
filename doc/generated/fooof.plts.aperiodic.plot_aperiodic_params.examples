@@ -1,0 +1,22 @@
+
+
+Examples using ``fooof.plts.aperiodic.plot_aperiodic_params``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum model parameters and components. ">
+
+.. only:: html
+
+ .. figure:: /auto_examples/plots/images/thumb/sphx_glr_plot_model_components_thumb.png
+
+     :ref:`sphx_glr_auto_examples_plots_plot_model_components.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_plots_plot_model_components.py`

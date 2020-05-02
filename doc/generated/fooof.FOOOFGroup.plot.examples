@@ -1,0 +1,76 @@
+
+
+Examples using ``fooof.FOOOFGroup.plot``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Fitting power spectrum models across 3D arrays of power spectra. ">
+
+.. only:: html
+
+ .. figure:: /auto_examples/manage/images/thumb/sphx_glr_plot_fit_fooof_3d_thumb.png
+
+     :ref:`sphx_glr_auto_examples_manage_plot_fit_fooof_3d.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_manage_plot_fit_fooof_3d.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Parameterizing neural power spectra with MNE, doing a topographical analysis.">
+
+.. only:: html
+
+ .. figure:: /auto_examples/analyses/images/thumb/sphx_glr_plot_mne_example_thumb.png
+
+     :ref:`sphx_glr_auto_examples_analyses_plot_mne_example.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_analyses_plot_mne_example.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_06-FOOOFGroup_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_06-FOOOFGroup.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_06-FOOOFGroup.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_08-FurtherAnalysis_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_08-FurtherAnalysis.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_08-FurtherAnalysis.py`

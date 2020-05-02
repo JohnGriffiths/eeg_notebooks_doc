@@ -1,0 +1,22 @@
+
+
+Examples using ``fooof.sim.transform.translate_spectrum``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Apply transformations to power spectra.">
+
+.. only:: html
+
+ .. figure:: /auto_examples/sims/images/thumb/sphx_glr_plot_transforms_thumb.png
+
+     :ref:`sphx_glr_auto_examples_sims_plot_transforms.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_examples_sims_plot_transforms.py`

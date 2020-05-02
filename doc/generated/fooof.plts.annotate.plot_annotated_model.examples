@@ -1,0 +1,22 @@
+
+
+Examples using ``fooof.plts.annotate.plot_annotated_model``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="A description and introduction to the power spectrum model. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_01-ModelDescription_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_01-ModelDescription.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_01-ModelDescription.py`

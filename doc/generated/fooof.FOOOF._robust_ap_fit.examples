@@ -1,0 +1,22 @@
+
+
+Examples using ``fooof.FOOOF._robust_ap_fit``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="A step by step overview of the algorithm for parameterizing neural power spectra. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_03-FOOOFAlgorithm_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_03-FOOOFAlgorithm.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_03-FOOOFAlgorithm.py`

@@ -1,0 +1,22 @@
+
+
+Examples using ``fooof.FOOOF.has_data``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Further exploring the FOOOF object, including algorithm settings and available methods. ">
+
+.. only:: html
+
+ .. figure:: /auto_tutorials/images/thumb/sphx_glr_plot_04-MoreFOOOF_thumb.png
+
+     :ref:`sphx_glr_auto_tutorials_plot_04-MoreFOOOF.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+ * :ref:`sphx_glr_auto_tutorials_plot_04-MoreFOOOF.py`
