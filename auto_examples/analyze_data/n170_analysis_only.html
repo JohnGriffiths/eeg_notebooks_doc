@@ -113,7 +113,8 @@
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="c1">#from stimulus_presentation import n170</span>
 <span class="c1">#os.chdir(&#39;../&#39;)</span>
-<span class="kn">from</span> <span class="nn">utils</span> <span class="k">import</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">eegnb.analysis</span> <span class="k">import</span> <span class="n">utils</span>
+<span class="c1">#;from utils import utils</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">OrderedDict</span>
 <span class="kn">import</span> <span class="nn">warnings</span>
 <span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
@@ -136,7 +137,7 @@ the example dataset, if you do not already have it.</p>
 <span class="n">session</span> <span class="o">=</span> <span class="mi">1</span>
 
 <span class="c1">#raw = utils.load_data(&#39;visual/N170&#39;, sfreq=256.,</span>
-<span class="n">eegnb_data_path</span> <span class="o">=</span> <span class="s1">&#39;/c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg_notebooks/data&#39;</span>
+<span class="n">eegnb_data_path</span> <span class="o">=</span> <span class="s1">&#39;/c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg-notebooks_old/data&#39;</span>
 <span class="n">raw</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_data</span><span class="p">(</span><span class="n">eegnb_data_path</span> <span class="o">+</span> <span class="s1">&#39;/visual/N170&#39;</span><span class="p">,</span> <span class="n">sfreq</span><span class="o">=</span><span class="mf">256.</span><span class="p">,</span>
                               <span class="n">subject_nb</span><span class="o">=</span><span class="n">subject</span><span class="p">,</span> <span class="n">session_nb</span><span class="o">=</span><span class="n">session</span><span class="p">)</span>
 </pre></div>

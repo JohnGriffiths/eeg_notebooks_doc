@@ -20,7 +20,8 @@ from time import time, strftime, gmtime
 import os
 #from stimulus_presentation import n170
 #os.chdir('../')
-from utils import utils
+from eegnb.analysis import utils
+#;from utils import utils
 from collections import OrderedDict
 import warnings
 warnings.filterwarnings('ignore')
@@ -55,7 +56,7 @@ subject = 1
 session = 1
 
 #raw = utils.load_data('visual/N170', sfreq=256., 
-eegnb_data_path = '/c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg_notebooks/data' 
+eegnb_data_path = '/c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg-notebooks_old/data' 
 raw = utils.load_data(eegnb_data_path + '/visual/N170', sfreq=256., 
                               subject_nb=subject, session_nb=session)
 
