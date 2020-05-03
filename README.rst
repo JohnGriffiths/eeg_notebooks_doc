@@ -92,14 +92,20 @@ Acknowledgments
 EEG-Notebooks was created by the `NeurotechX <https://neurotechx.com/>`_ hacker/developer/neuroscience community. The ininitial idea and majority of the groundwork was due to Alexandre Barachant - including the `muse-lsl <https://github.com/alexandrebarachant/muse-lsl/>`_ library, which is core dependency. Lead developer on the project is now `John Griffiths <www.grifflab.com>`_ . 
 
 
-Key contributors include:
+*Key contributors include:*
 
 Alexandre Barachant  
+
 Hubert Banville  
+
 Dano Morrison  
+
 Ben Shapiro  
+
 John Griffiths  
+
 Amanda Easson  
+
 Kyle Mathewson  
 
 
@@ -117,12 +123,12 @@ Contribute
 
 This project welcomes and encourages contributions from the community!
 
-If you have an idea of something to add to FOOOF, please start by opening an
+If you have an idea of something to add to eeg-notebooks, please start by opening an
 `issue <https://github.com/neurotechx/eeg-notebooks/issues>`_.
 Note that this issue tracker is used for code specific questions and suggestions.                                       If you have a question or suggestion related to the model or conceptual ideas, check out the
 `development <https://github.com/neurotechx/eeg-notebooks/Development>`_ page.
 
-When writing code to add to FOOOF, please follow the
+When writing code to add to eeg-notebooks, please follow the
 `Contribution Guidelines <https://github.com/neurotechx/eeg-notebooks/blob/master/CONTRIBUTING.md>`_
 , and also make sure to follow our
 `Code of Conduct <https://github.com/neurotechx/eeg-notebooks/blob/master/CODE_OF_CONDUCT.md>`_.
