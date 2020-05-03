@@ -88,7 +88,8 @@ Quickstart
 Acknowledgments
 ----------------
 
-EEG-Notebooks was created by the `NeurotechX <https://neurotechx.com/>`_ hacker/developer/neuroscience community. The ininitial idea and majority of the groundwork was due to Alexandre Barachant - including the `muse-lsl <https://github.com/alexandrebarachant/muse-lsl/>`_ library, which is core dependency. Lead developer on the project is now `John Griffiths <www.grifflab.com>`_. 
+
+EEG-Notebooks was created by the `NeurotechX <https://neurotechx.com/>`_ hacker/developer/neuroscience community. The ininitial idea and majority of the groundwork was due to Alexandre Barachant - including the `muse-lsl <https://github.com/alexandrebarachant/muse-lsl/>`_ library, which is core dependency. Lead developer on the project is now `John Griffiths <www.grifflab.com>`_ . 
 
 
 Key contributors include:
@@ -101,10 +102,10 @@ John Griffiths
 Amanda Easson
 Kyle Mathewson
 
-(Thanks also to Tom Donaghue and the `FOOOF <https://github.com/fooof-tools/fooof/blob/master/CODE_OF_CONDUCT.md>`_ developers for the `sphinx-gallery` documentation site code, on which these doc pages are heavily based.)
 
 
-Reference                                                                                                               ---------
+Reference
+----------
 
 *Coming soon...*
 
