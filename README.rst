@@ -94,13 +94,14 @@ EEG-Notebooks was created by the `NeurotechX <https://neurotechx.com/>`_ hacker/
 
 Key contributors include:
 
-Alexandre Barachant
-Hubert Banville
-Dano Morrison
-Ben Shapiro
-John Griffiths
-Amanda Easson
-Kyle Mathewson
+Alexandre Barachant  
+Hubert Banville  
+Dano Morrison  
+Ben Shapiro  
+John Griffiths  
+Amanda Easson  
+Kyle Mathewson  
+
 
 
 
