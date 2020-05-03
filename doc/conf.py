@@ -21,15 +21,16 @@ from sphinx_gallery.sorting import FileNameSortKey, ExplicitOrder
 # -- Project information -----------------------------------------------------
 
 # Set project information
-project = 'fooof'
-copyright = '2018-{}, VoytekLab'.format(date.today().year)
-author = 'Thomas Donoghue'
+project = 'eeg-notebooks'
+copyright = '2020-{}, NeuroTechX'.format(date.today().year)
+author = 'John Griffiths'
 
 # Get and set the current version number
-from fooof import __version__
-version = __version__
-release = version
-
+#from fooof import __version__
+#version = __version__
+#release = version
+version = '0.0'
+release = '0.0'
 
 # -- General configuration ---------------------------------------------------
 
