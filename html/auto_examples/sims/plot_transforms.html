@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Transforming Power Spectra &#8212; fooof 1.0.1-dev documentation</title>
+    <title>Transforming Power Spectra &#8212; eeg-notebooks 0.0 documentation</title>
     <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
@@ -41,8 +41,8 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="../../index.html">
-          fooof</a>
-        <span class="navbar-text navbar-version pull-left"><b>1.0.1-dev</b></span>
+          eeg-notebooks</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.0</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -113,7 +113,7 @@ and track how outcome measures relate to changes in the power spectra.</p>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 <span class="c1"># Import the FOOOF object</span>
-<span class="kn">from</span> <span class="nn">fooof</span> <span class="k">import</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a>
+<span class="kn">from</span> <span class="nn">fooof</span> <span class="k">import</span> <span class="n">FOOOF</span>
 
 <span class="c1"># Import simulation utilities to create example data</span>
 <span class="kn">from</span> <span class="nn">fooof.sim.gen</span> <span class="k">import</span> <a href="../../generated/fooof.sim.gen_power_spectrum.html#fooof.sim.gen_power_spectrum" title="fooof.sim.gen_power_spectrum" class="sphx-glr-backref-module-fooof-sim sphx-glr-backref-type-py-function"><span class="n">gen_power_spectrum</span></a>
@@ -152,18 +152,18 @@ changing the aperiodic exponent of the spectrum.</p>
 <img alt="../../_images/sphx_glr_plot_transforms_001.png" class="sphx-glr-single-img" src="../../_images/sphx_glr_plot_transforms_001.png" />
 <p>Next, we can fit power spectrum models to check if our change in exponent worked as expected.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize FOOOF objects</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm1</span></a> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm2</span></a> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fm1</span> <span class="o">=</span> <span class="n">FOOOF</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fm2</span> <span class="o">=</span> <span class="n">FOOOF</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
 <span class="c1"># Fit power spectrum models to the original, and rotated, spectrum</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm1</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers</span><span class="p">)</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm2</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">r_powers</span><span class="p">)</span>
+<span class="n">fm1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers</span><span class="p">)</span>
+<span class="n">fm2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">r_powers</span><span class="p">)</span>
 
 <span class="c1"># Check the measured exponent values</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Original exponent value:</span><span class="se">\t</span><span class="s2"> </span><span class="si">{:1.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>\
-    <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.get_params" title="fooof.FOOOF.get_params" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm1</span><span class="o">.</span><span class="n">get_params</span></a><span class="p">(</span><span class="s1">&#39;aperiodic_params&#39;</span><span class="p">,</span> <span class="s1">&#39;exponent&#39;</span><span class="p">)))</span>
+    <span class="n">fm1</span><span class="o">.</span><span class="n">get_params</span><span class="p">(</span><span class="s1">&#39;aperiodic_params&#39;</span><span class="p">,</span> <span class="s1">&#39;exponent&#39;</span><span class="p">)))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Rotated exponent value:</span><span class="se">\t</span><span class="si">{:1.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>\
-    <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.get_params" title="fooof.FOOOF.get_params" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm2</span><span class="o">.</span><span class="n">get_params</span></a><span class="p">(</span><span class="s1">&#39;aperiodic_params&#39;</span><span class="p">,</span> <span class="s1">&#39;exponent&#39;</span><span class="p">)))</span>
+    <span class="n">fm2</span><span class="o">.</span><span class="n">get_params</span><span class="p">(</span><span class="s1">&#39;aperiodic_params&#39;</span><span class="p">,</span> <span class="s1">&#39;exponent&#39;</span><span class="p">)))</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -253,8 +253,8 @@ power spectra.</p>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize some power spectrum models for checking our transformations</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm1</span></a> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm2</span></a> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fm1</span> <span class="o">=</span> <span class="n">FOOOF</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fm2</span> <span class="o">=</span> <span class="n">FOOOF</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="section" id="rotate-at-the-same-rotation-frequencies">
@@ -278,9 +278,9 @@ is computable as the different of delta exponents applied to each spectrum.</p>
 <span class="n">exp_diff</span> <span class="o">=</span> <span class="n">delta_exp_1</span> <span class="o">-</span> <span class="n">delta_exp_2</span>
 
 <span class="c1"># Calculate the measured difference in exponent</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm1</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers_1</span><span class="p">);</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm2</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers_2</span><span class="p">)</span>
-<span class="n">exp_diff_meas</span> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.get_params" title="fooof.FOOOF.get_params" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm1</span><span class="o">.</span><span class="n">get_params</span></a><span class="p">(</span><span class="s1">&#39;aperiodic&#39;</span><span class="p">,</span> <span class="s1">&#39;exponent&#39;</span><span class="p">)</span> <span class="o">-</span> \
-    <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.get_params" title="fooof.FOOOF.get_params" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm2</span><span class="o">.</span><span class="n">get_params</span></a><span class="p">(</span><span class="s1">&#39;aperiodic&#39;</span><span class="p">,</span> <span class="s1">&#39;exponent&#39;</span><span class="p">)</span>
+<span class="n">fm1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers_1</span><span class="p">);</span> <span class="n">fm2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers_2</span><span class="p">)</span>
+<span class="n">exp_diff_meas</span> <span class="o">=</span> <span class="n">fm1</span><span class="o">.</span><span class="n">get_params</span><span class="p">(</span><span class="s1">&#39;aperiodic&#39;</span><span class="p">,</span> <span class="s1">&#39;exponent&#39;</span><span class="p">)</span> <span class="o">-</span> \
+    <span class="n">fm2</span><span class="o">.</span><span class="n">get_params</span><span class="p">(</span><span class="s1">&#39;aperiodic&#39;</span><span class="p">,</span> <span class="s1">&#39;exponent&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Print out the expected and measured changes in exponent</span>
@@ -324,10 +324,10 @@ computed as the difference of rotation offset changes between them.</p>
     <a href="../../generated/fooof.sim.transform.compute_rotation_offset.html#fooof.sim.transform.compute_rotation_offset" title="fooof.sim.transform.compute_rotation_offset" class="sphx-glr-backref-module-fooof-sim-transform sphx-glr-backref-type-py-function"><span class="n">compute_rotation_offset</span></a><span class="p">(</span><span class="n">delta_exp</span><span class="p">,</span> <span class="n">f_rotation_2</span><span class="p">)</span>
 
 <span class="c1"># Calculate the measured difference in offset</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm1</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers_1</span><span class="p">)</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm2</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers_2</span><span class="p">)</span>
-<span class="n">off_diff_2</span> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.get_params" title="fooof.FOOOF.get_params" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm1</span><span class="o">.</span><span class="n">get_params</span></a><span class="p">(</span><span class="s1">&#39;aperiodic&#39;</span><span class="p">,</span> <span class="s1">&#39;offset&#39;</span><span class="p">)</span> <span class="o">-</span> \
-    <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.get_params" title="fooof.FOOOF.get_params" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm2</span><span class="o">.</span><span class="n">get_params</span></a><span class="p">(</span><span class="s1">&#39;aperiodic&#39;</span><span class="p">,</span> <span class="s1">&#39;offset&#39;</span><span class="p">)</span>
+<span class="n">fm1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers_1</span><span class="p">)</span>
+<span class="n">fm2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers_2</span><span class="p">)</span>
+<span class="n">off_diff_2</span> <span class="o">=</span> <span class="n">fm1</span><span class="o">.</span><span class="n">get_params</span><span class="p">(</span><span class="s1">&#39;aperiodic&#39;</span><span class="p">,</span> <span class="s1">&#39;offset&#39;</span><span class="p">)</span> <span class="o">-</span> \
+    <span class="n">fm2</span><span class="o">.</span><span class="n">get_params</span><span class="p">(</span><span class="s1">&#39;aperiodic&#39;</span><span class="p">,</span> <span class="s1">&#39;offset&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Print out the expected and measured changes in offset</span>
@@ -391,10 +391,10 @@ relationship between ‘B’ and ‘C’, using the formula for how spectra are 
 </div>
 <img alt="../../_images/sphx_glr_plot_transforms_005.png" class="sphx-glr-single-img" src="../../_images/sphx_glr_plot_transforms_005.png" />
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.lines.Line2D object at 0x7f2724d8a090&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.lines.Line2D object at 0x7fd0720bbf10&gt;
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  1.913 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  4.050 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-examples-sims-plot-transforms-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/2bfd7dab90fd49de48ce646340e94d20/plot_transforms.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_transforms.py</span></code></a></p>
@@ -420,7 +420,7 @@ relationship between ‘B’ and ‘C’, using the formula for how spectra are 
       
     </p>
     <p>
-        &copy; Copyright 2018-2020, VoytekLab.<br/>
+        &copy; Copyright 2020-2020, NeuroTechX.<br/>
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.<br/>
     </p>
   </div>

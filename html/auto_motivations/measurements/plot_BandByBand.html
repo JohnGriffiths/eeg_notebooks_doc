@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Band-by-Band &#8212; fooof 1.0.1-dev documentation</title>
+    <title>Band-by-Band &#8212; eeg-notebooks 0.0 documentation</title>
     <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
@@ -41,8 +41,8 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="../../index.html">
-          fooof</a>
-        <span class="navbar-text navbar-version pull-left"><b>1.0.1-dev</b></span>
+          eeg-notebooks</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.0</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -111,7 +111,7 @@ often done in the context of development. The paper for that project is availabl
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 <span class="c1"># Import the FOOOF object</span>
-<span class="kn">from</span> <span class="nn">fooof</span> <span class="k">import</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a>
+<span class="kn">from</span> <span class="nn">fooof</span> <span class="k">import</span> <span class="n">FOOOF</span>
 
 <span class="c1"># Import simulation, utility, and plotting tools</span>
 <span class="kn">from</span> <span class="nn">fooof.bands</span> <span class="k">import</span> <a href="../../generated/fooof.Bands.html#fooof.Bands" title="fooof.Bands" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">Bands</span></a>
@@ -258,16 +258,16 @@ the spectra should show specific differences in each band.</p>
 <p>To check this, we can fit power spectrum models, and examine which parameters are
 changing in the data.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize FOOOF objects</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g1</span></a> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g2</span></a> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fm_bands_g1</span> <span class="o">=</span> <span class="n">FOOOF</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fm_bands_g2</span> <span class="o">=</span> <span class="n">FOOOF</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
 <span class="c1"># Fit power spectrum models</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm_bands_g1</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">g1_spectrum_bands</span><span class="p">)</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm_bands_g2</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">g2_spectrum_bands</span><span class="p">)</span>
+<span class="n">fm_bands_g1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">g1_spectrum_bands</span><span class="p">)</span>
+<span class="n">fm_bands_g2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">g2_spectrum_bands</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Plot the power spectra differences</span>
-<a href="../../generated/fooof.plts.spectra.plot_spectra_shading.html#fooof.plts.spectra.plot_spectra_shading" title="fooof.plts.spectra.plot_spectra_shading" class="sphx-glr-backref-module-fooof-plts-spectra sphx-glr-backref-type-py-function"><span class="n">plot_spectra_shading</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="p">[</span><a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g1</span></a><span class="o">.</span><span class="n">_spectrum_flat</span><span class="p">,</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g2</span></a><span class="o">.</span><span class="n">_spectrum_flat</span><span class="p">],</span>
+<a href="../../generated/fooof.plts.spectra.plot_spectra_shading.html#fooof.plts.spectra.plot_spectra_shading" title="fooof.plts.spectra.plot_spectra_shading" class="sphx-glr-backref-module-fooof-plts-spectra sphx-glr-backref-type-py-function"><span class="n">plot_spectra_shading</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="p">[</span><span class="n">fm_bands_g1</span><span class="o">.</span><span class="n">_spectrum_flat</span><span class="p">,</span> <span class="n">fm_bands_g2</span><span class="o">.</span><span class="n">_spectrum_flat</span><span class="p">],</span>
                      <span class="n">log_powers</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
                      <span class="n">shades</span><span class="o">=</span><a href="../../generated/fooof.Bands.html#fooof.Bands.definitions" title="fooof.Bands.definitions" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-attribute"><span class="n">bands</span><span class="o">.</span><span class="n">definitions</span></a><span class="p">,</span> <span class="n">shade_colors</span><span class="o">=</span><span class="n">shade_cols</span><span class="p">,</span>
                      <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
@@ -285,7 +285,7 @@ changing in the data.</p>
 <h3>Compare Spectral Parameters<a class="headerlink" href="#compare-spectral-parameters" title="Permalink to this headline">¶</a></h3>
 <p>Next, let’s compare the measured parameters of the data.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check the difference of aperiodic activity between age groups</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">exp_template</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">compare_exp</span><span class="p">(</span><a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g1</span></a><span class="p">,</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g2</span></a><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">exp_template</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">compare_exp</span><span class="p">(</span><span class="n">fm_bands_g1</span><span class="p">,</span> <span class="n">fm_bands_g2</span><span class="p">)))</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -295,8 +295,8 @@ changing in the data.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check the difference in periodic activity, across bands, between groups</span>
 <span class="k">for</span> <span class="n">label</span><span class="p">,</span> <span class="n">definition</span> <span class="ow">in</span> <a href="../../generated/fooof.Bands.html#fooof.Bands" title="fooof.Bands" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">bands</span></a><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">pw_template</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">label</span><span class="p">,</span>
-                             <span class="n">compare_peak_pw</span><span class="p">(</span><a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g1</span></a><span class="p">,</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g2</span></a><span class="p">,</span> <span class="n">definition</span><span class="p">),</span>
-                             <span class="n">compare_band_pw</span><span class="p">(</span><a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g1</span></a><span class="p">,</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_bands_g2</span></a><span class="p">,</span> <span class="n">definition</span><span class="p">)))</span>
+                             <span class="n">compare_peak_pw</span><span class="p">(</span><span class="n">fm_bands_g1</span><span class="p">,</span> <span class="n">fm_bands_g2</span><span class="p">,</span> <span class="n">definition</span><span class="p">),</span>
+                             <span class="n">compare_band_pw</span><span class="p">(</span><span class="n">fm_bands_g1</span><span class="p">,</span> <span class="n">fm_bands_g2</span><span class="p">,</span> <span class="n">definition</span><span class="p">)))</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -346,16 +346,16 @@ in this case, just an alpha peak, with a difference in the aperiodic activity.</
 the spectra should show no differences in periodic peaks.</p>
 <p>We can again parameterize the spectra to investigate this.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize FOOOF objects</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g1</span></a> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g2</span></a> <span class="o">=</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fm_pa_g1</span> <span class="o">=</span> <span class="n">FOOOF</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fm_pa_g2</span> <span class="o">=</span> <span class="n">FOOOF</span><span class="p">(</span><span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
 <span class="c1"># Fit power spectrum models</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm_pa_g1</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">g1_spectrum_pa</span><span class="p">)</span>
-<a href="../../generated/fooof.FOOOF.html#fooof.FOOOF.fit" title="fooof.FOOOF.fit" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm_pa_g2</span><span class="o">.</span><span class="n">fit</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">g2_spectrum_pa</span><span class="p">)</span>
+<span class="n">fm_pa_g1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">g1_spectrum_pa</span><span class="p">)</span>
+<span class="n">fm_pa_g2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">g2_spectrum_pa</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Plot the power spectra differences</span>
-<a href="../../generated/fooof.plts.spectra.plot_spectra_shading.html#fooof.plts.spectra.plot_spectra_shading" title="fooof.plts.spectra.plot_spectra_shading" class="sphx-glr-backref-module-fooof-plts-spectra sphx-glr-backref-type-py-function"><span class="n">plot_spectra_shading</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="p">[</span><a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g1</span></a><span class="o">.</span><span class="n">_spectrum_flat</span><span class="p">,</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g2</span></a><span class="o">.</span><span class="n">_spectrum_flat</span><span class="p">],</span>
+<a href="../../generated/fooof.plts.spectra.plot_spectra_shading.html#fooof.plts.spectra.plot_spectra_shading" title="fooof.plts.spectra.plot_spectra_shading" class="sphx-glr-backref-module-fooof-plts-spectra sphx-glr-backref-type-py-function"><span class="n">plot_spectra_shading</span></a><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="p">[</span><span class="n">fm_pa_g1</span><span class="o">.</span><span class="n">_spectrum_flat</span><span class="p">,</span> <span class="n">fm_pa_g2</span><span class="o">.</span><span class="n">_spectrum_flat</span><span class="p">],</span>
                      <span class="n">log_powers</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
                      <span class="n">shades</span><span class="o">=</span><a href="../../generated/fooof.Bands.html#fooof.Bands.definitions" title="fooof.Bands.definitions" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-attribute"><span class="n">bands</span><span class="o">.</span><span class="n">definitions</span></a><span class="p">,</span> <span class="n">shade_colors</span><span class="o">=</span><span class="n">shade_cols</span><span class="p">,</span>
                      <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
@@ -373,7 +373,7 @@ the spectra should show no differences in periodic peaks.</p>
 <h3>Compare Spectral Parameters<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <p>Let’s again compare the measured parameters of the data.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check the difference of aperiodic activity between age groups</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">exp_template</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">compare_exp</span><span class="p">(</span><a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g1</span></a><span class="p">,</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g2</span></a><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">exp_template</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">compare_exp</span><span class="p">(</span><span class="n">fm_pa_g1</span><span class="p">,</span> <span class="n">fm_pa_g2</span><span class="p">)))</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -383,8 +383,8 @@ the spectra should show no differences in periodic peaks.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check the difference in periodic activity, across bands, between groups</span>
 <span class="k">for</span> <span class="n">label</span><span class="p">,</span> <span class="n">definition</span> <span class="ow">in</span> <a href="../../generated/fooof.Bands.html#fooof.Bands" title="fooof.Bands" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">bands</span></a><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">pw_template</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">label</span><span class="p">,</span>
-                             <span class="n">compare_peak_pw</span><span class="p">(</span><a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g1</span></a><span class="p">,</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g2</span></a><span class="p">,</span> <span class="n">definition</span><span class="p">),</span>
-                             <span class="n">compare_band_pw</span><span class="p">(</span><a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g1</span></a><span class="p">,</span> <a href="../../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">fm_pa_g2</span></a><span class="p">,</span> <span class="n">definition</span><span class="p">)))</span>
+                             <span class="n">compare_peak_pw</span><span class="p">(</span><span class="n">fm_pa_g1</span><span class="p">,</span> <span class="n">fm_pa_g2</span><span class="p">,</span> <span class="n">definition</span><span class="p">),</span>
+                             <span class="n">compare_band_pw</span><span class="p">(</span><span class="n">fm_pa_g1</span><span class="p">,</span> <span class="n">fm_pa_g2</span><span class="p">,</span> <span class="n">definition</span><span class="p">)))</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -435,7 +435,7 @@ came from using the parameterization approach, but was not evidence in prior
 work using only a band-by-band approach.
 You can find more on that project
 <a class="reference external" href="https://doi.org/10.1101/839258">here</a>.</p>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  2.031 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  4.751 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-motivations-measurements-plot-bandbyband-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/c32ca0d4d5e21c0a1b64086f80e65bd9/plot_BandByBand.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_BandByBand.py</span></code></a></p>
@@ -460,7 +460,7 @@ You can find more on that project
       
     </p>
     <p>
-        &copy; Copyright 2018-2020, VoytekLab.<br/>
+        &copy; Copyright 2020-2020, NeuroTechX.<br/>
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.<br/>
     </p>
   </div>
