@@ -5,7 +5,7 @@ Examples using ``fooof.data.FOOOFResults``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Introduction to the module, beginning with the FOOOF object. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Introduction to the module, beginning with the FOOOF object.">
 
 .. only:: html
 
@@ -23,7 +23,7 @@ Examples using ``fooof.data.FOOOFResults``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra.">
 
 .. only:: html
 
@@ -41,7 +41,7 @@ Examples using ``fooof.data.FOOOFResults``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Tips &amp; tricks for choosing algorithm settings, tuning fits, and troubleshooting. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Tips &amp; tricks for choosing algorithm settings, tuning fits, and troubleshooting.">
 
 .. only:: html
 

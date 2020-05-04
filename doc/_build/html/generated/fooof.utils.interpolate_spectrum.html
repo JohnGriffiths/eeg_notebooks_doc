@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>fooof.utils.interpolate_spectrum &#8212; fooof 1.0.0 documentation</title>
+    <title>fooof.utils.interpolate_spectrum &#8212; eeg-notebooks 0.0 documentation</title>
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery-binder.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery-dataframe.css" />
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/clipboard.min.js"></script>
+    <script type="text/javascript" src="../_static/copybutton.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
 <meta charset='utf-8'>
@@ -41,8 +41,8 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="../index.html">
-          fooof</a>
-        <span class="navbar-text navbar-version pull-left"><b>1.0.0</b></span>
+          eeg-notebooks</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.0</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -98,9 +98,9 @@
       
   <div class="section" id="fooof-utils-interpolate-spectrum">
 <h1>fooof.utils.interpolate_spectrum<a class="headerlink" href="#fooof-utils-interpolate-spectrum" title="Permalink to this headline">¶</a></h1>
-<dl class="py function">
+<dl class="function">
 <dt id="fooof.utils.interpolate_spectrum">
-<code class="sig-prename descclassname">fooof.utils.</code><code class="sig-name descname">interpolate_spectrum</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">freqs</span></em>, <em class="sig-param"><span class="n">powers</span></em>, <em class="sig-param"><span class="n">interp_range</span></em>, <em class="sig-param"><span class="n">buffer</span><span class="o">=</span><span class="default_value">3</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fooof/utils/data.html#interpolate_spectrum"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fooof.utils.interpolate_spectrum" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">fooof.utils.</code><code class="descname">interpolate_spectrum</code><span class="sig-paren">(</span><em>freqs</em>, <em>powers</em>, <em>interp_range</em>, <em>buffer=3</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fooof/utils/data.html#interpolate_spectrum"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fooof.utils.interpolate_spectrum" title="Permalink to this definition">¶</a></dt>
 <dd><p>Interpolate a frequency region in a power spectrum.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -141,7 +141,7 @@ Setting <cite>buffer=1</cite> is equivalent to a linear interpolation between
 the points adjacent to the interpolation range.</p>
 <p class="rubric">Examples</p>
 <p>Using a simulated spectrum, interpolate away a line noise peak:</p>
-<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">fooof.sim</span> <span class="kn">import</span> <span class="n">gen_power_spectrum</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">fooof.sim</span> <span class="k">import</span> <span class="n">gen_power_spectrum</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers</span> <span class="o">=</span> <span class="n">gen_power_spectrum</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">75</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[[</span><span class="mi">10</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">],</span> <span class="p">[</span><span class="mi">60</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">]])</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers</span> <span class="o">=</span> <span class="n">interpolate_spectrum</span><span class="p">(</span><span class="n">freqs</span><span class="p">,</span> <span class="n">powers</span><span class="p">,</span> <span class="p">[</span><span class="mi">58</span><span class="p">,</span> <span class="mi">62</span><span class="p">])</span>
 </pre></div>
@@ -162,8 +162,8 @@ the points adjacent to the interpolation range.</p>
       
     </p>
     <p>
-        &copy; Copyright 2018-2020, VoytekLab.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.<br/>
+        &copy; Copyright 2020-2020, NeuroTechX.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.<br/>
     </p>
   </div>
 </footer>

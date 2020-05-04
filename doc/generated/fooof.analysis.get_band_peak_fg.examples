@@ -5,7 +5,7 @@ Examples using ``fooof.analysis.get_band_peak_fg``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum model parameters and components. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum model parameters and components.">
 
 .. only:: html
 
@@ -23,25 +23,7 @@ Examples using ``fooof.analysis.get_band_peak_fg``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Parameterizing neural power spectra with MNE, doing a topographical analysis.">
-
-.. only:: html
-
- .. figure:: /auto_examples/analyses/images/thumb/sphx_glr_plot_mne_example_thumb.png
-
-     :ref:`sphx_glr_auto_examples_analyses_plot_mne_example.py`
-
-.. raw:: html
-
-    </div>
-
-.. only:: not html
-
- * :ref:`sphx_glr_auto_examples_analyses_plot_mne_example.py`
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models.">
 
 .. only:: html
 

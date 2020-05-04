@@ -5,7 +5,7 @@ Examples using ``fooof.sim.gen_power_spectrum``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Check the error of power spectrum models across frequencies. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Check the error of power spectrum models across frequencies.">
 
 .. only:: html
 
@@ -23,7 +23,7 @@ Examples using ``fooof.sim.gen_power_spectrum``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Examples with combining, sub-selecting, dropping, and averaging power spectrum models. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Examples with combining, sub-selecting, dropping, and averaging power spectrum models.">
 
 .. only:: html
 
@@ -59,7 +59,7 @@ Examples using ``fooof.sim.gen_power_spectrum``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Visualizing power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Visualizing power spectra.">
 
 .. only:: html
 
@@ -77,7 +77,7 @@ Examples using ``fooof.sim.gen_power_spectrum``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Manage parameters for creating simulated power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Manage parameters for creating simulated power spectra.">
 
 .. only:: html
 
@@ -95,7 +95,7 @@ Examples using ``fooof.sim.gen_power_spectrum``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Creating simulated power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Creating simulated power spectra.">
 
 .. only:: html
 
@@ -131,7 +131,7 @@ Examples using ``fooof.sim.gen_power_spectrum``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="A description and introduction to the power spectrum model. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="A description and introduction to the power spectrum model.">
 
 .. only:: html
 
@@ -149,7 +149,7 @@ Examples using ``fooof.sim.gen_power_spectrum``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Tips &amp; tricks for choosing algorithm settings, tuning fits, and troubleshooting. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Tips &amp; tricks for choosing algorithm settings, tuning fits, and troubleshooting.">
 
 .. only:: html
 
@@ -185,7 +185,7 @@ Examples using ``fooof.sim.gen_power_spectrum``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Exploring how band ratio measures relate to periodic &amp; aperiodic activity. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Exploring how band ratio measures relate to periodic &amp; aperiodic activity.">
 
 .. only:: html
 

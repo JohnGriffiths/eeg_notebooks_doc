@@ -449,7 +449,7 @@ data, and a comparison to parameterizing power spectra, see the full project
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  1.646 seconds)
+   **Total running time of the script:** ( 0 minutes  2.566 seconds)
 
 
 .. _sphx_glr_download_auto_motivations_measurements_plot_BandRatios.py:

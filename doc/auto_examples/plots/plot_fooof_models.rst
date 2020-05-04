@@ -289,7 +289,7 @@ There are also some other optional inputs to the :meth:`~fooof.FOOOF.plot` call,
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  2.562 seconds)
+   **Total running time of the script:** ( 0 minutes  3.174 seconds)
 
 
 .. _sphx_glr_download_auto_examples_plots_plot_fooof_models.py:

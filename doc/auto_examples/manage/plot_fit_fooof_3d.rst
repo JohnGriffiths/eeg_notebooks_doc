@@ -253,7 +253,7 @@ collectively store all the model fit results.
 
  .. code-block:: none
 
-    [<fooof.objs.group.FOOOFGroup object at 0x7f6aabfe1f98>, <fooof.objs.group.FOOOFGroup object at 0x7f6acd79a470>, <fooof.objs.group.FOOOFGroup object at 0x7f6aabfc92b0>]
+    [<fooof.objs.group.FOOOFGroup object at 0x7f61165166d0>, <fooof.objs.group.FOOOFGroup object at 0x7f6116516f50>, <fooof.objs.group.FOOOFGroup object at 0x7f611650b110>]
 
 
 
@@ -324,9 +324,9 @@ difference in aperiodic exponent between different conditions.
 
  .. code-block:: none
 
-    Aperiodic exponent for condition 0 is 1.4514
-    Aperiodic exponent for condition 1 is 1.4010
-    Aperiodic exponent for condition 2 is 1.3507
+    Aperiodic exponent for condition 0 is 1.5004
+    Aperiodic exponent for condition 1 is 1.4004
+    Aperiodic exponent for condition 2 is 1.4007
 
 
 
@@ -415,13 +415,13 @@ and these object utility functions is available in other examples.
                                   Power spectra were fit without a knee.                              
                                                                                                   
                                           Aperiodic Fit Values:                                       
-                            Exponents - Min:  0.998, Max:  2.002, Mean: 1.401                         
+                            Exponents - Min:  0.998, Max:  2.002, Mean: 1.434                         
                                                                                                   
-                             In total 26 peaks were extracted from the group                          
+                             In total 31 peaks were extracted from the group                          
                                                                                                   
                                          Goodness of fit metrics:                                     
                                 R2s -  Min:  1.000, Max:  1.000, Mean: 1.000                          
-                             Errors -  Min:  0.004, Max:  0.004, Mean: 0.004                          
+                             Errors -  Min:  0.003, Max:  0.004, Mean: 0.004                          
                                                                                                   
     ==================================================================================================
 
@@ -431,7 +431,7 @@ and these object utility functions is available in other examples.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  1.011 seconds)
+   **Total running time of the script:** ( 0 minutes  1.463 seconds)
 
 
 .. _sphx_glr_download_auto_examples_manage_plot_fit_fooof_3d.py:

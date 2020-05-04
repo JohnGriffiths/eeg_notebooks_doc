@@ -267,8 +267,8 @@ and the shading indicates the standard deviation of the error, also per frequenc
 
  .. code-block:: none
 
-    Frequency with highest mean error:                       48.5
-    Frequency with highest standard deviation of error:      48.5
+    Frequency with highest mean error:                       25.5
+    Frequency with highest standard deviation of error:      14.5
 
 
 
@@ -340,7 +340,7 @@ looking more into the how the model fits are going.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  2.121 seconds)
+   **Total running time of the script:** ( 0 minutes  3.915 seconds)
 
 
 .. _sphx_glr_download_auto_examples_manage_plot_freq_by_freq_error.py:

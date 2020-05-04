@@ -5,7 +5,7 @@ Examples using ``fooof.objs.combine_fooofs``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Fitting power spectrum models across 3D arrays of power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Fitting power spectrum models across 3D arrays of power spectra.">
 
 .. only:: html
 
@@ -23,7 +23,7 @@ Examples using ``fooof.objs.combine_fooofs``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Examples with combining, sub-selecting, dropping, and averaging power spectrum models. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Examples with combining, sub-selecting, dropping, and averaging power spectrum models.">
 
 .. only:: html
 

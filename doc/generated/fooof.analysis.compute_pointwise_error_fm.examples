@@ -5,7 +5,7 @@ Examples using ``fooof.analysis.compute_pointwise_error_fm``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Check the error of power spectrum models across frequencies. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Check the error of power spectrum models across frequencies.">
 
 .. only:: html
 

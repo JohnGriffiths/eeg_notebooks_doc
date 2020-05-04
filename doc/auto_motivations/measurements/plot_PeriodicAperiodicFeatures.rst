@@ -432,7 +432,7 @@ ways.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  1.163 seconds)
+   **Total running time of the script:** ( 0 minutes  1.585 seconds)
 
 
 .. _sphx_glr_download_auto_motivations_measurements_plot_PeriodicAperiodicFeatures.py:

@@ -231,16 +231,16 @@ Access model fit parameters from FOOOF object, after fitting:
  .. code-block:: none
 
     Aperiodic parameters: 
-     [-21.61849464   0.71602468] 
+     [-21.61849466   0.71602466] 
 
     Peak parameters: 
      [[ 9.36187744  1.04444653  1.58739813]
-     [11.17320481  0.23009279  2.87553579]
+     [11.17320483  0.23009279  2.8755358 ]
      [18.24842746  0.33142173  2.84617073]] 
 
     Goodness of fit:
-     Error -  0.035606995796104206
-     R^2   -  0.9828918511777349 
+     Error -  0.035606995591632246
+     R^2   -  0.9828918513142899 
 
     Number of fit peaks: 
      3
@@ -409,14 +409,14 @@ object used with FOOOF to organize and collect parameter data.
 
  .. code-block:: none
 
-    FOOOFResults(aperiodic_params=array([-21.61849464,   0.71602468]), peak_params=array([[ 9.36187744,  1.04444653,  1.58739813],
-           [11.17320481,  0.23009279,  2.87553579],
-           [18.24842746,  0.33142173,  2.84617073]]), r_squared=0.9828918511777349, error=0.035606995796104206, gaussian_params=array([[ 9.36187744,  0.979158  ,  0.79369907],
-           [11.17320481,  0.16895002,  1.4377679 ],
-           [18.24842746,  0.33414213,  1.42308537]])) 
+    FOOOFResults(aperiodic_params=array([-21.61849466,   0.71602466]), peak_params=array([[ 9.36187744,  1.04444653,  1.58739813],
+           [11.17320483,  0.23009279,  2.8755358 ],
+           [18.24842746,  0.33142173,  2.84617073]]), r_squared=0.9828918513142899, error=0.035606995591632246, gaussian_params=array([[ 9.36187744,  0.979158  ,  0.79369907],
+           [11.17320483,  0.16895002,  1.4377679 ],
+           [18.24842746,  0.33414213,  1.42308536]])) 
 
     Aperiodic Parameters: 
-     [-21.61849464   0.71602468]
+     [-21.61849466   0.71602466]
     R-squared: 
      0.9829
     Fit error: 
@@ -438,7 +438,7 @@ in the next tutorial, we will first explore how this model is actually fit.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.746 seconds)
+   **Total running time of the script:** ( 0 minutes  0.491 seconds)
 
 
 .. _sphx_glr_download_auto_tutorials_plot_02-FOOOF.py:

@@ -260,7 +260,7 @@ examined for oscillatory activity, using the beta band as an example.
  .. code-block:: none
 
 
-    (-1.0, 1.0)
+    (-1, 1)
 
 
 
@@ -296,7 +296,7 @@ are sometimes analyzed, like our 'high-gamma' frequency band.
  .. code-block:: none
 
 
-    (-1.0, 1.0)
+    (-1, 1)
 
 
 
@@ -327,7 +327,7 @@ additional analyses, such as parameterizing neural power spectra, are recommende
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  3.209 seconds)
+   **Total running time of the script:** ( 0 minutes  5.648 seconds)
 
 
 .. _sphx_glr_download_auto_motivations_concepts_plot_IfYouFilterTheyWillCome.py:

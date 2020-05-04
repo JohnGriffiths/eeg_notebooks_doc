@@ -324,7 +324,7 @@ to the simulated aperiodic exponent values.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.754 seconds)
+   **Total running time of the script:** ( 0 minutes  1.101 seconds)
 
 
 .. _sphx_glr_download_auto_examples_sims_plot_sim_params.py:

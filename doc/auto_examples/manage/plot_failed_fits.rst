@@ -186,6 +186,7 @@ in simulated data.
     Model fitting was unsuccessful.
     Model fitting was unsuccessful.
     Model fitting was unsuccessful.
+    Model fitting was unsuccessful.
 
 
 
@@ -212,8 +213,8 @@ be printed out if there is as model fit failure when in verbose mode.
 
  .. code-block:: none
 
-    Number of Null models  :         4
-    Indices of Null models :         [3, 5, 17, 19]
+    Number of Null models  :         5
+    Indices of Null models :         [3, 15, 17, 18, 19]
 
 
 
@@ -298,7 +299,7 @@ repository, and we will try to look into what seems to be happening.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  13.355 seconds)
+   **Total running time of the script:** ( 0 minutes  15.288 seconds)
 
 
 .. _sphx_glr_download_auto_examples_manage_plot_failed_fits.py:

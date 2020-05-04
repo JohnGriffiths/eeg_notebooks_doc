@@ -199,8 +199,8 @@ First, we will start by generating a noisy simulated power spectrum
                                     CF:  19.92, PW:  0.826, BW:  3.60                                 
                                     CF:  22.69, PW:  0.525, BW:  0.50                                 
                                     CF:  31.85, PW:  0.566, BW:  2.22                                 
-                                    CF:  38.65, PW:  0.262, BW:  0.59                                 
-                                    CF:  39.51, PW:  0.239, BW:  0.54                                 
+                                    CF:  38.66, PW:  0.262, BW:  0.60                                 
+                                    CF:  39.54, PW:  0.239, BW:  0.50                                 
                                     CF:  49.46, PW:  0.209, BW:  0.50                                 
                                                                                                   
                                          Goodness of fit metrics:                                     
@@ -760,7 +760,7 @@ and final tutorial, we will introduce how to start analyzing FOOOF results.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  7.262 seconds)
+   **Total running time of the script:** ( 0 minutes  8.009 seconds)
 
 
 .. _sphx_glr_download_auto_tutorials_plot_07-TroubleShooting.py:

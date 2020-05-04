@@ -267,7 +267,7 @@ to scale the fitting to apply across multiple power spectra.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  1.073 seconds)
+   **Total running time of the script:** ( 0 minutes  0.933 seconds)
 
 
 .. _sphx_glr_download_auto_tutorials_plot_05-AperiodicFitting.py:

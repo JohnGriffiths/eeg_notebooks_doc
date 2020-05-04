@@ -5,22 +5,22 @@
 
 Computation times
 =================
-**00:25.811** total execution time for **auto_tutorials** files:
+**00:31.198** total execution time for **auto_tutorials** files:
 
 +----------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_tutorials_plot_06-FOOOFGroup.py` (``plot_06-FOOOFGroup.py``)             | 00:09.638 | 0.0 MB |
+| :ref:`sphx_glr_auto_tutorials_plot_06-FOOOFGroup.py` (``plot_06-FOOOFGroup.py``)             | 00:12.075 | 0.0 MB |
 +----------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_tutorials_plot_07-TroubleShooting.py` (``plot_07-TroubleShooting.py``)   | 00:07.262 | 0.0 MB |
+| :ref:`sphx_glr_auto_tutorials_plot_07-TroubleShooting.py` (``plot_07-TroubleShooting.py``)   | 00:08.009 | 0.0 MB |
 +----------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_tutorials_plot_03-FOOOFAlgorithm.py` (``plot_03-FOOOFAlgorithm.py``)     | 00:03.430 | 0.0 MB |
+| :ref:`sphx_glr_auto_tutorials_plot_03-FOOOFAlgorithm.py` (``plot_03-FOOOFAlgorithm.py``)     | 00:04.032 | 0.0 MB |
 +----------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_tutorials_plot_01-ModelDescription.py` (``plot_01-ModelDescription.py``) | 00:02.032 | 0.0 MB |
+| :ref:`sphx_glr_auto_tutorials_plot_01-ModelDescription.py` (``plot_01-ModelDescription.py``) | 00:02.598 | 0.0 MB |
 +----------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_tutorials_plot_05-AperiodicFitting.py` (``plot_05-AperiodicFitting.py``) | 00:01.073 | 0.0 MB |
+| :ref:`sphx_glr_auto_tutorials_plot_04-MoreFOOOF.py` (``plot_04-MoreFOOOF.py``)               | 00:02.020 | 0.0 MB |
 +----------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_tutorials_plot_04-MoreFOOOF.py` (``plot_04-MoreFOOOF.py``)               | 00:00.939 | 0.0 MB |
+| :ref:`sphx_glr_auto_tutorials_plot_08-FurtherAnalysis.py` (``plot_08-FurtherAnalysis.py``)   | 00:01.039 | 0.0 MB |
 +----------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_tutorials_plot_02-FOOOF.py` (``plot_02-FOOOF.py``)                       | 00:00.746 | 0.0 MB |
+| :ref:`sphx_glr_auto_tutorials_plot_05-AperiodicFitting.py` (``plot_05-AperiodicFitting.py``) | 00:00.933 | 0.0 MB |
 +----------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_tutorials_plot_08-FurtherAnalysis.py` (``plot_08-FurtherAnalysis.py``)   | 00:00.691 | 0.0 MB |
+| :ref:`sphx_glr_auto_tutorials_plot_02-FOOOF.py` (``plot_02-FOOOF.py``)                       | 00:00.491 | 0.0 MB |
 +----------------------------------------------------------------------------------------------+-----------+--------+

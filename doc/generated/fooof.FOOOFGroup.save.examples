@@ -5,7 +5,7 @@ Examples using ``fooof.FOOOFGroup.save``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Fitting power spectrum models across 3D arrays of power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Fitting power spectrum models across 3D arrays of power spectra.">
 
 .. only:: html
 
@@ -23,7 +23,7 @@ Examples using ``fooof.FOOOFGroup.save``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra.">
 
 .. only:: html
 

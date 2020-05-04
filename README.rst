@@ -15,23 +15,23 @@ Documentation
 -------------
 
 Documentation for eeg-notebooks is available on the
-`documentation site <https://varman-m.github.io/eeg_notebooks_doc/index.html>`_.
+`documentation site <https://johngriffiths.github.io/eeg_notebooks_doc/index.html>`_.
 
 This documentation includes:
 
-- `Setup <https://varman-m.github.io/eeg_notebooks_doc/auto_setup/index.html>`_:
+- `Setup <https://johngriffiths.github.io/eeg_notebooks_doc/auto_setup/index.html>`_:
   with information on supported hardware, software requirements, installation and setup
-- `Tutorials <https://varman-m.github.io/eeg_notebooks_doc/auto_tutorials/index.html>`_:
+- `Tutorials <https://johngriffiths.github.io/eeg_notebooks_doc/auto_tutorials/index.html>`_:
   with a step-by-step guide on how to set up and run a variety of eeg-based cognitive neuroscience experiments 
-- `Examples <https://varman-m.github.io/eeg_notebooks_doc/auto_examples/index.html>`_:
+- `Examples <https://johngriffiths.github.io/eeg_notebooks_doc/auto_examples/index.html>`_:
   demonstrating example analyses and use cases, and other functionality
-- `API list <https://varman-m.github.io/eeg_notebooks_doc/api.html>`_:
+- `API list <https://johngriffiths.github.io/eeg_notebooks_doc/api.html>`_:
   which lists and describes all the code and functionality available in the module
-- `FAQ <https://varman-m.github.io/eeg_notebooks_doc/faq.html>`_:
+- `FAQ <https://johngriffiths.github.io/eeg_notebooks_doc/faq.html>`_:
   answering frequency asked questions
-- `Glossary <https://varman-m.github.io/eeg_notebooks_doc/glossary.html>`_:
+- `Glossary <https://johngriffiths.github.io/eeg_notebooks_doc/glossary.html>`_:
   which defines all the key terms used in the module
-- `Reference <https://varman-m.github.io/eeg_notebooks_doc/reference.html>`_:
+- `Reference <https://johngriffiths.github.io/eeg_notebooks_doc/reference.html>`_:
   with information for reporting on using and reference the module
 
 Dependencies
@@ -47,7 +47,7 @@ Installation
 
 The current version of eeg-noteboks is the 0.X.X series. The code-base and API are under major development and subject to change. 
 
-Check the `changelog <https://varman-m.github.io/eeg_notebooks_doc/changelog.html>`_ for notes on changes from previous versions. 
+Check the `changelog <https://johngriffiths.github.io/eeg_notebooks_doc/changelog.html>`_ for notes on changes from previous versions. 
 
 **Stable Version**
 

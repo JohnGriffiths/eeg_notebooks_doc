@@ -20,7 +20,7 @@ This tutorial is designed to be worked through in order.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="A description and introduction to the power spectrum model. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="A description and introduction to the power spectrum model.">
 
 .. only:: html
 
@@ -40,7 +40,7 @@ This tutorial is designed to be worked through in order.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Introduction to the module, beginning with the FOOOF object. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Introduction to the module, beginning with the FOOOF object.">
 
 .. only:: html
 
@@ -60,7 +60,7 @@ This tutorial is designed to be worked through in order.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="A step by step overview of the algorithm for parameterizing neural power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="A step by step overview of the algorithm for parameterizing neural power spectra.">
 
 .. only:: html
 
@@ -80,7 +80,7 @@ This tutorial is designed to be worked through in order.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Further exploring the FOOOF object, including algorithm settings and available methods. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Further exploring the FOOOF object, including algorithm settings and available methods.">
 
 .. only:: html
 
@@ -100,7 +100,7 @@ This tutorial is designed to be worked through in order.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Choosing and using different approaches for fitting the aperiodic component. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Choosing and using different approaches for fitting the aperiodic component.">
 
 .. only:: html
 
@@ -120,7 +120,7 @@ This tutorial is designed to be worked through in order.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra.">
 
 .. only:: html
 
@@ -140,7 +140,7 @@ This tutorial is designed to be worked through in order.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Tips &amp; tricks for choosing algorithm settings, tuning fits, and troubleshooting. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Tips &amp; tricks for choosing algorithm settings, tuning fits, and troubleshooting.">
 
 .. only:: html
 
@@ -160,7 +160,7 @@ This tutorial is designed to be worked through in order.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models.">
 
 .. only:: html
 
@@ -191,13 +191,13 @@ This tutorial is designed to be worked through in order.
 
   .. container:: sphx-glr-download sphx-glr-download-python
 
-    :download:`Download all examples in Python source code: auto_tutorials_python.zip <//home/varman/Desktop/fooof/doc/auto_tutorials/auto_tutorials_python.zip>`
+    :download:`Download all examples in Python source code: auto_tutorials_python.zip <//c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg_notebooks_doc_JG/doc/auto_tutorials/auto_tutorials_python.zip>`
 
 
 
   .. container:: sphx-glr-download sphx-glr-download-jupyter
 
-    :download:`Download all examples in Jupyter notebooks: auto_tutorials_jupyter.zip <//home/varman/Desktop/fooof/doc/auto_tutorials/auto_tutorials_jupyter.zip>`
+    :download:`Download all examples in Jupyter notebooks: auto_tutorials_jupyter.zip <//c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg_notebooks_doc_JG/doc/auto_tutorials/auto_tutorials_jupyter.zip>`
 
 
 .. only:: html

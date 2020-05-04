@@ -614,14 +614,14 @@ relationship between 'B' and 'C', using the formula for how spectra are rotated.
  .. code-block:: none
 
 
-    <matplotlib.lines.Line2D object at 0x7f6aab3140f0>
+    <matplotlib.lines.Line2D object at 0x7f6116437690>
 
 
 
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  1.244 seconds)
+   **Total running time of the script:** ( 0 minutes  1.643 seconds)
 
 
 .. _sphx_glr_download_auto_examples_sims_plot_transforms.py:

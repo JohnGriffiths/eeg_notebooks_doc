@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>04: Exploring the FOOOF Object &#8212; fooof 1.0.0 documentation</title>
+    <title>04: Exploring the FOOOF Object &#8212; eeg-notebooks 0.0 documentation</title>
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery-binder.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery-dataframe.css" />
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/clipboard.min.js"></script>
+    <script type="text/javascript" src="../_static/copybutton.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
 <meta charset='utf-8'>
@@ -41,8 +41,8 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="../index.html">
-          fooof</a>
-        <span class="navbar-text navbar-version pull-left"><b>1.0.0</b></span>
+          eeg-notebooks</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.0</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -104,10 +104,10 @@
 <span id="sphx-glr-auto-tutorials-plot-04-morefooof-py"></span><h1>04: Exploring the FOOOF Object<a class="headerlink" href="#exploring-the-fooof-object" title="Permalink to this headline">¶</a></h1>
 <p>Further exploring the FOOOF object, including algorithm settings and available methods.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import the FOOOF object</span>
-<span class="kn">from</span> <span class="nn">fooof</span> <span class="kn">import</span> <a href="../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a>
+<span class="kn">from</span> <span class="nn">fooof</span> <span class="k">import</span> <a href="../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOF</span></a>
 
 <span class="c1"># Import utility to download and load example data</span>
-<span class="kn">from</span> <span class="nn">fooof.utils.download</span> <span class="kn">import</span> <span class="n">load_fooof_data</span>
+<span class="kn">from</span> <span class="nn">fooof.utils.download</span> <span class="k">import</span> <span class="n">load_fooof_data</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize a FOOOF object</span>
@@ -266,7 +266,7 @@ if the current object has data loaded.</p>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check if the object has data loaded</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Has data loaded: &#39;</span><span class="p">,</span> <a href="../generated/fooof.FOOOF.html#fooof.FOOOF.has_data" title="fooof.FOOOF.has_data" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm</span><span class="o">.</span><span class="n">has_data</span></a><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Has data loaded: &#39;</span><span class="p">,</span> <a href="../generated/fooof.FOOOF.html#fooof.FOOOF.has_data" title="fooof.FOOOF.has_data" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-attribute"><span class="n">fm</span><span class="o">.</span><span class="n">has_data</span></a><span class="p">)</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -313,7 +313,7 @@ model results are indicated by a trailing underscore.</p>
 <p>The <a class="reference internal" href="../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF"><code class="xref py py-class docutils literal notranslate"><span class="pre">FOOOF</span></code></a> object also has an indicator attribute, <code class="docutils literal notranslate"><span class="pre">has_model</span></code>
 which indicates if the current object has model results available.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check if the object has model results</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Has model results: &#39;</span><span class="p">,</span> <a href="../generated/fooof.FOOOF.html#fooof.FOOOF.has_model" title="fooof.FOOOF.has_model" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-method"><span class="n">fm</span><span class="o">.</span><span class="n">has_model</span></a><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Has model results: &#39;</span><span class="p">,</span> <a href="../generated/fooof.FOOOF.html#fooof.FOOOF.has_model" title="fooof.FOOOF.has_model" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-attribute"><span class="n">fm</span><span class="o">.</span><span class="n">has_model</span></a><span class="p">)</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -329,12 +329,12 @@ which indicates if the current object has model results available.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>aperiodic params:        [-21.44372546   1.07510691]
-peak params:     [[ 9.81511894  0.72768575  3.00442113]
- [13.04276139  0.25957048  2.54345949]
- [18.12826738  0.15093637  4.62563197]]
-r-squared:       0.9922991774101613
-fit error:       0.029372423215056263
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>aperiodic params:        [-21.44372547   1.07510691]
+peak params:     [[ 9.81511897  0.72768575  3.00442116]
+ [13.04276146  0.25957048  2.5434593 ]
+ [18.12826732  0.15093637  4.62563212]]
+r-squared:       0.992299177438436
+fit error:       0.02937242314395825
 fooofed spectrum:        [-21.86047574 -21.9455885  -22.01750003 -22.07961578 -22.13385218]
 </pre></div>
 </div>
@@ -441,13 +441,13 @@ or append to, or pass in a JSON file object.</p>
 <p>We have now fully explored the <a class="reference internal" href="../generated/fooof.FOOOF.html#fooof.FOOOF" title="fooof.FOOOF"><code class="xref py py-class docutils literal notranslate"><span class="pre">FOOOF</span></code></a> object, and all it contains.
 Next, we will take a deeper dive into how to choose different modes for fitting
 the aperiodic component of power spectra.</p>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  0.939 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  2.020 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-tutorials-plot-04-morefooof-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
-<p><a class="reference download internal" download="" href="../_downloads/91057e4aeee06f0a0baa05c9f8714658/plot_04-MoreFOOOF.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_04-MoreFOOOF.py</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/59b978ea271729aaf34440faaa8168d9/plot_04-MoreFOOOF.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_04-MoreFOOOF.py</span></code></a></p>
 </div>
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
-<p><a class="reference download internal" download="" href="../_downloads/b4b208c1f35ab1e06a6ac5626f448096/plot_04-MoreFOOOF.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_04-MoreFOOOF.ipynb</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/5e6d78e3b794138a15ba7ded2b242eb8/plot_04-MoreFOOOF.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_04-MoreFOOOF.ipynb</span></code></a></p>
 </div>
 </div>
 <p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
@@ -466,8 +466,8 @@ the aperiodic component of power spectra.</p>
       
     </p>
     <p>
-        &copy; Copyright 2018-2020, VoytekLab.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.<br/>
+        &copy; Copyright 2020-2020, NeuroTechX.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.<br/>
     </p>
   </div>
 </footer>

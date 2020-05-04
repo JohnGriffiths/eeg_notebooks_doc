@@ -5,7 +5,7 @@ Examples using ``fooof.FOOOFGroup.fit``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Example of model fit failures and how to debug them. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Example of model fit failures and how to debug them.">
 
 .. only:: html
 
@@ -23,7 +23,7 @@ Examples using ``fooof.FOOOFGroup.fit``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Check the error of power spectrum models across frequencies. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Check the error of power spectrum models across frequencies.">
 
 .. only:: html
 
@@ -41,7 +41,7 @@ Examples using ``fooof.FOOOFGroup.fit``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum model parameters and components. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum model parameters and components.">
 
 .. only:: html
 
@@ -59,25 +59,7 @@ Examples using ``fooof.FOOOFGroup.fit``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Parameterizing neural power spectra with MNE, doing a topographical analysis.">
-
-.. only:: html
-
- .. figure:: /auto_examples/analyses/images/thumb/sphx_glr_plot_mne_example_thumb.png
-
-     :ref:`sphx_glr_auto_examples_analyses_plot_mne_example.py`
-
-.. raw:: html
-
-    </div>
-
-.. only:: not html
-
- * :ref:`sphx_glr_auto_examples_analyses_plot_mne_example.py`
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra.">
 
 .. only:: html
 
@@ -95,7 +77,7 @@ Examples using ``fooof.FOOOFGroup.fit``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models.">
 
 .. only:: html
 

@@ -36,7 +36,7 @@ Examples of how to use, organize, work with, and check FOOOF objects.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Example of model fit failures and how to debug them. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Example of model fit failures and how to debug them.">
 
 .. only:: html
 
@@ -56,7 +56,7 @@ Examples of how to use, organize, work with, and check FOOOF objects.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Fitting power spectrum models across 3D arrays of power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Fitting power spectrum models across 3D arrays of power spectra.">
 
 .. only:: html
 
@@ -76,7 +76,7 @@ Examples of how to use, organize, work with, and check FOOOF objects.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Check the error of power spectrum models across frequencies. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Check the error of power spectrum models across frequencies.">
 
 .. only:: html
 
@@ -96,7 +96,7 @@ Examples of how to use, organize, work with, and check FOOOF objects.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Examples with combining, sub-selecting, dropping, and averaging power spectrum models. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Examples with combining, sub-selecting, dropping, and averaging power spectrum models.">
 
 .. only:: html
 
@@ -149,7 +149,7 @@ Examples demonstrating the plot functions.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum model parameters and components. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum model parameters and components.">
 
 .. only:: html
 
@@ -169,7 +169,7 @@ Examples demonstrating the plot functions.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Visualizing power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Visualizing power spectra.">
 
 .. only:: html
 
@@ -202,7 +202,7 @@ Examples covering simulating neural power spectra.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Manage parameters for creating simulated power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Manage parameters for creating simulated power spectra.">
 
 .. only:: html
 
@@ -222,7 +222,7 @@ Examples covering simulating neural power spectra.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Creating simulated power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Creating simulated power spectra.">
 
 .. only:: html
 
@@ -275,13 +275,13 @@ Example analyses involving parameterizing neural power spectra.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Parameterizing neural power spectra with MNE, doing a topographical analysis.">
+    <div class="sphx-glr-thumbcontainer" tooltip="Testing the sphix-gallery contruction of example pages and downloadable .py and .ipynb files">
 
 .. only:: html
 
- .. figure:: /auto_examples/analyses/images/thumb/sphx_glr_plot_mne_example_thumb.png
+ .. figure:: /auto_examples/analyses/images/thumb/sphx_glr_test_example_thumb.png
 
-     :ref:`sphx_glr_auto_examples_analyses_plot_mne_example.py`
+     :ref:`sphx_glr_auto_examples_analyses_test_example.py`
 
 .. raw:: html
 
@@ -291,7 +291,151 @@ Example analyses involving parameterizing neural power spectra.
 .. toctree::
    :hidden:
 
-   /auto_examples/analyses/plot_mne_example
+   /auto_examples/analyses/test_example
+.. raw:: html
+
+    <div class="sphx-glr-clear"></div>
+
+
+
+.. _sphx_glr_auto_examples_analyze_data:
+
+Analyze Data
+--------------
+
+Examples of analyzing already-collected eeg-notebooks data
+
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This notebook runs only the data analysis part of N170 notebook.">
+
+.. only:: html
+
+ .. figure:: /auto_examples/analyze_data/images/thumb/sphx_glr_n170_analysis_only_thumb.png
+
+     :ref:`sphx_glr_auto_examples_analyze_data_n170_analysis_only.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /auto_examples/analyze_data/n170_analysis_only
+.. raw:: html
+
+    <div class="sphx-glr-clear"></div>
+
+
+
+.. _sphx_glr_auto_examples_equipment_and_setup:
+
+Equipment and setup
+--------------------
+
+Blah blah blah
+
+
+.. raw:: html
+
+    <div class="sphx-glr-clear"></div>
+
+
+
+.. _sphx_glr_auto_examples_making_recordings:
+
+Making recordings
+--------------------
+
+Blah blah blah
+
+
+.. raw:: html
+
+    <div class="sphx-glr-clear"></div>
+
+
+
+.. _sphx_glr_auto_examples_stimulus_presentation:
+
+Stimulus presentation
+--------------------
+
+Blah blah blah
+
+
+.. raw:: html
+
+    <div class="sphx-glr-clear"></div>
+
+
+
+.. _sphx_glr_auto_examples_analyzing_experimental_results:
+
+Analyzing experimental results
+-------------------------------
+
+Blah blah blah
+
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This notebook runs only the data analysis part of N170 notebook.">
+
+.. only:: html
+
+ .. figure:: /auto_examples/analyzing_experimental_results/images/thumb/sphx_glr_n170_analysis_only_thumb.png
+
+     :ref:`sphx_glr_auto_examples_analyzing_experimental_results_n170_analysis_only.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /auto_examples/analyzing_experimental_results/n170_analysis_only
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Example script with invalid Python syntax ">
+
+.. only:: html
+
+ .. figure:: /auto_examples/analyzing_experimental_results/images/thumb/sphx_glr_p300_analysis_thumb.png
+
+     :ref:`sphx_glr_auto_examples_analyzing_experimental_results_p300_analysis.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /auto_examples/analyzing_experimental_results/p300_analysis
+.. raw:: html
+
+    <div class="sphx-glr-clear"></div>
+
+
+
+.. _sphx_glr_auto_examples_complete_examples:
+
+Complete examples
+--------------------
+
+Blah blah blah
+
+
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>
@@ -306,13 +450,13 @@ Example analyses involving parameterizing neural power spectra.
 
   .. container:: sphx-glr-download sphx-glr-download-python
 
-    :download:`Download all examples in Python source code: auto_examples_python.zip <//home/varman/Desktop/fooof/doc/auto_examples/auto_examples_python.zip>`
+    :download:`Download all examples in Python source code: auto_examples_python.zip <//c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg_notebooks_doc_JG/doc/auto_examples/auto_examples_python.zip>`
 
 
 
   .. container:: sphx-glr-download sphx-glr-download-jupyter
 
-    :download:`Download all examples in Jupyter notebooks: auto_examples_jupyter.zip <//home/varman/Desktop/fooof/doc/auto_examples/auto_examples_jupyter.zip>`
+    :download:`Download all examples in Jupyter notebooks: auto_examples_jupyter.zip <//c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg_notebooks_doc_JG/doc/auto_examples/auto_examples_jupyter.zip>`
 
 
 .. only:: html

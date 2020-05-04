@@ -5,7 +5,7 @@ Examples using ``fooof.sim.params.param_jitter``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum model parameters and components. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Plotting power spectrum model parameters and components.">
 
 .. only:: html
 
@@ -23,7 +23,7 @@ Examples using ``fooof.sim.params.param_jitter``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Manage parameters for creating simulated power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Manage parameters for creating simulated power spectra.">
 
 .. only:: html
 

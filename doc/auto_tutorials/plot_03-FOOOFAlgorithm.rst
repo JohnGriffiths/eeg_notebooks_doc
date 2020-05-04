@@ -497,7 +497,7 @@ properly introducing the settings and further exploring the parameters.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  3.430 seconds)
+   **Total running time of the script:** ( 0 minutes  4.032 seconds)
 
 
 .. _sphx_glr_download_auto_tutorials_plot_03-FOOOFAlgorithm.py:

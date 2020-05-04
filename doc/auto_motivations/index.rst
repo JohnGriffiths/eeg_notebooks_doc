@@ -40,7 +40,7 @@ In particular, these examples investigate how the notion of different components
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Exploring the rhythmicity of time series and their frequency representations. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Exploring the rhythmicity of time series and their frequency representations.">
 
 .. only:: html
 
@@ -60,7 +60,7 @@ In particular, these examples investigate how the notion of different components
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Examining the results of filtering aperiodic signals. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Examining the results of filtering aperiodic signals.">
 
 .. only:: html
 
@@ -115,7 +115,7 @@ In particular, these examples investigate how various methods work in the contex
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Exploring how band ratio measures relate to periodic &amp; aperiodic activity. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Exploring how band ratio measures relate to periodic &amp; aperiodic activity.">
 
 .. only:: html
 
@@ -166,13 +166,13 @@ In particular, these examples investigate how various methods work in the contex
 
   .. container:: sphx-glr-download sphx-glr-download-python
 
-    :download:`Download all examples in Python source code: auto_motivations_python.zip <//home/varman/Desktop/fooof/doc/auto_motivations/auto_motivations_python.zip>`
+    :download:`Download all examples in Python source code: auto_motivations_python.zip <//c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg_notebooks_doc_JG/doc/auto_motivations/auto_motivations_python.zip>`
 
 
 
   .. container:: sphx-glr-download sphx-glr-download-jupyter
 
-    :download:`Download all examples in Jupyter notebooks: auto_motivations_jupyter.zip <//home/varman/Desktop/fooof/doc/auto_motivations/auto_motivations_jupyter.zip>`
+    :download:`Download all examples in Jupyter notebooks: auto_motivations_jupyter.zip <//c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg_notebooks_doc_JG/doc/auto_motivations/auto_motivations_jupyter.zip>`
 
 
 .. only:: html

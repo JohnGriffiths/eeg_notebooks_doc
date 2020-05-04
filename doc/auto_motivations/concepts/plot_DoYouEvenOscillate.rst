@@ -62,6 +62,15 @@ descriptive claim of the actual components of the data.
 
 
 
+.. rst-class:: sphx-glr-script-out
+
+ Out:
+
+ .. code-block:: none
+
+    /home/john/Software/miniconda3/envs/jupyter_py3/lib/python3.7/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192 from C header, got 216 from PyObject
+      return f(*args, **kwds)
+
 
 
 
@@ -566,7 +575,7 @@ interpret power at any given frequency as necessarily reflecting rhythmic activi
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  5.041 seconds)
+   **Total running time of the script:** ( 0 minutes  7.214 seconds)
 
 
 .. _sphx_glr_download_auto_motivations_concepts_plot_DoYouEvenOscillate.py:

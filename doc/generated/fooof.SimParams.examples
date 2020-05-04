@@ -5,7 +5,7 @@ Examples using ``fooof.SimParams``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Manage parameters for creating simulated power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Manage parameters for creating simulated power spectra.">
 
 .. only:: html
 
@@ -23,7 +23,7 @@ Examples using ``fooof.SimParams``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Creating simulated power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Creating simulated power spectra.">
 
 .. only:: html
 

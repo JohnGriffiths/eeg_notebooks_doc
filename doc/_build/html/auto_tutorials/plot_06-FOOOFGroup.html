@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>06: FOOOFGroup &#8212; fooof 1.0.0 documentation</title>
+    <title>06: FOOOFGroup &#8212; eeg-notebooks 0.0 documentation</title>
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery-binder.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery-dataframe.css" />
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/clipboard.min.js"></script>
+    <script type="text/javascript" src="../_static/copybutton.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
 <meta charset='utf-8'>
@@ -41,8 +41,8 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="../index.html">
-          fooof</a>
-        <span class="navbar-text navbar-version pull-left"><b>1.0.0</b></span>
+          eeg-notebooks</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.0</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -104,10 +104,10 @@
 <span id="sphx-glr-auto-tutorials-plot-06-fooofgroup-py"></span><h1>06: FOOOFGroup<a class="headerlink" href="#fooofgroup" title="Permalink to this headline">¶</a></h1>
 <p>Using FOOOFGroup to run fit models across multiple power spectra.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import the FOOOFGroup object</span>
-<span class="kn">from</span> <span class="nn">fooof</span> <span class="kn">import</span> <a href="../generated/fooof.FOOOFGroup.html#fooof.FOOOFGroup" title="fooof.FOOOFGroup" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOFGroup</span></a>
+<span class="kn">from</span> <span class="nn">fooof</span> <span class="k">import</span> <a href="../generated/fooof.FOOOFGroup.html#fooof.FOOOFGroup" title="fooof.FOOOFGroup" class="sphx-glr-backref-module-fooof sphx-glr-backref-type-py-class"><span class="n">FOOOFGroup</span></a>
 
 <span class="c1"># Import utility to download and load example data</span>
-<span class="kn">from</span> <span class="nn">fooof.utils.download</span> <span class="kn">import</span> <span class="n">load_fooof_data</span>
+<span class="kn">from</span> <span class="nn">fooof.utils.download</span> <span class="k">import</span> <span class="n">load_fooof_data</span>
 </pre></div>
 </div>
 <div class="section" id="fitting-multiple-spectra">
@@ -215,12 +215,12 @@ called <code class="docutils literal notranslate"><span class="pre">group_result
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[FOOOFResults(aperiodic_params=array([-21.5931594 ,   0.66654701]), peak_params=array([[ 9.4088037 ,  1.44223656,  2.1352059 ],
-       [18.44689676,  0.62328342,  2.36122321]]), r_squared=0.9729477049342996, error=0.05410881194674272, gaussian_params=array([[ 9.4088037 ,  1.45321198,  1.06760295],
-       [18.44689676,  0.62588664,  1.18061161]])), FOOOFResults(aperiodic_params=array([-21.64485744,   0.78116378]), peak_params=array([[ 9.34931443,  1.59788754,  2.05215068],
-       [11.57383428,  0.44989783,  1.24937295],
-       [18.5393173 ,  0.73999236,  2.37682557]]), r_squared=0.9795689271205626, error=0.05326551715353906, gaussian_params=array([[ 9.34931443,  1.6014178 ,  1.02607534],
-       [11.57383428,  0.34781375,  0.62468648],
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[FOOOFResults(aperiodic_params=array([-21.59315936,   0.66654704]), peak_params=array([[ 9.4088037 ,  1.44223656,  2.1352059 ],
+       [18.44689676,  0.62328342,  2.36122321]]), r_squared=0.9729477045342373, error=0.05410880985124122, gaussian_params=array([[ 9.4088037 ,  1.45321198,  1.06760295],
+       [18.44689676,  0.62588664,  1.18061161]])), FOOOFResults(aperiodic_params=array([-21.64485739,   0.78116383]), peak_params=array([[ 9.34931443,  1.59788754,  2.05215068],
+       [11.57383429,  0.44989783,  1.24937295],
+       [18.5393173 ,  0.73999236,  2.37682557]]), r_squared=0.9795689263732255, error=0.0532655147028167, gaussian_params=array([[ 9.34931443,  1.6014178 ,  1.02607534],
+       [11.57383429,  0.34781375,  0.62468648],
        [18.5393173 ,  0.74005425,  1.18841278]]))]
 </pre></div>
 </div>
@@ -320,11 +320,11 @@ FOOOFGroup object).</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[0.66654701 0.78116378 0.97596317 0.35626808 0.6622201  0.58348649
- 0.76028334 0.46594578 0.70975764 0.60541613 0.73824337 0.39581645
- 0.70797691 0.63143897 0.78995518 0.5037686  0.83825231 0.62707641
- 0.72882427 0.71863453 0.74302615 0.8814779  0.35305536 0.39947468
- 0.98214345]
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[0.66654704 0.78116383 0.9759621  0.35626808 0.66222006 0.58348649
+ 0.76028266 0.46594576 0.70975929 0.60541768 0.73824334 0.39581644
+ 0.70797692 0.63143898 0.7899552  0.50376863 0.83825231 0.62707581
+ 0.72882426 0.71863453 0.74302648 0.88147793 0.35305533 0.39947473
+ 0.98214347]
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check out some of the fit center-frequencies</span>
@@ -337,12 +337,12 @@ FOOOFGroup object).</p>
 <div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[[ 9.4088037   0.        ]
  [18.44689676  0.        ]
  [ 9.34931443  1.        ]
- [11.57383428  1.        ]
+ [11.57383429  1.        ]
  [18.5393173   1.        ]
- [ 9.48181066  2.        ]
- [11.25615368  2.        ]
- [12.57271821  2.        ]
- [18.67595773  2.        ]
+ [ 9.48191921  2.        ]
+ [11.25628275  2.        ]
+ [12.57401454  2.        ]
+ [18.67594487  2.        ]
  [10.61406527  3.        ]]
 </pre></div>
 </div>
@@ -428,22 +428,24 @@ want to monitor it’s progress, you can also use a progress bar to print out fi
 </div>
 <p class="sphx-glr-script-out">Out:</p>
 <div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Running FOOOFGroup:   0%|          | 0/25 [00:00&lt;?, ?it/s]
-Running FOOOFGroup:  12%|#2        | 3/25 [00:00&lt;00:01, 13.71it/s]
-Running FOOOFGroup:  16%|#6        | 4/25 [00:00&lt;00:01, 10.84it/s]
-Running FOOOFGroup:  20%|##        | 5/25 [00:00&lt;00:04,  4.79it/s]
-Running FOOOFGroup:  24%|##4       | 6/25 [00:00&lt;00:03,  5.61it/s]
-Running FOOOFGroup:  32%|###2      | 8/25 [00:01&lt;00:02,  6.85it/s]
-Running FOOOFGroup:  36%|###6      | 9/25 [00:01&lt;00:02,  5.92it/s]
-Running FOOOFGroup:  44%|####4     | 11/25 [00:01&lt;00:01,  7.05it/s]
-Running FOOOFGroup:  52%|#####2    | 13/25 [00:01&lt;00:01,  7.81it/s]
-Running FOOOFGroup:  60%|######    | 15/25 [00:01&lt;00:01,  8.92it/s]
-Running FOOOFGroup:  68%|######8   | 17/25 [00:02&lt;00:01,  4.47it/s]
-Running FOOOFGroup:  72%|#######2  | 18/25 [00:03&lt;00:01,  4.43it/s]
-Running FOOOFGroup:  80%|########  | 20/25 [00:03&lt;00:00,  5.20it/s]
-Running FOOOFGroup:  88%|########8 | 22/25 [00:03&lt;00:00,  5.77it/s]
-Running FOOOFGroup:  92%|#########2| 23/25 [00:03&lt;00:00,  6.04it/s]
-Running FOOOFGroup:  96%|#########6| 24/25 [00:03&lt;00:00,  6.75it/s]
-Running FOOOFGroup: 100%|##########| 25/25 [00:03&lt;00:00,  6.57it/s]
+Running FOOOFGroup:   8%|8         | 2/25 [00:00&lt;00:01, 17.53it/s]
+Running FOOOFGroup:  12%|#2        | 3/25 [00:00&lt;00:01, 11.55it/s]
+Running FOOOFGroup:  16%|#6        | 4/25 [00:00&lt;00:02,  9.48it/s]
+Running FOOOFGroup:  20%|##        | 5/25 [00:00&lt;00:04,  4.06it/s]
+Running FOOOFGroup:  24%|##4       | 6/25 [00:01&lt;00:03,  4.89it/s]
+Running FOOOFGroup:  32%|###2      | 8/25 [00:01&lt;00:02,  6.06it/s]
+Running FOOOFGroup:  36%|###6      | 9/25 [00:01&lt;00:03,  4.82it/s]
+Running FOOOFGroup:  44%|####4     | 11/25 [00:01&lt;00:02,  5.63it/s]
+Running FOOOFGroup:  48%|####8     | 12/25 [00:01&lt;00:02,  5.99it/s]
+Running FOOOFGroup:  56%|#####6    | 14/25 [00:02&lt;00:01,  6.70it/s]
+Running FOOOFGroup:  64%|######4   | 16/25 [00:03&lt;00:02,  3.84it/s]
+Running FOOOFGroup:  68%|######8   | 17/25 [00:03&lt;00:01,  4.64it/s]
+Running FOOOFGroup:  72%|#######2  | 18/25 [00:03&lt;00:01,  4.18it/s]
+Running FOOOFGroup:  80%|########  | 20/25 [00:03&lt;00:01,  4.81it/s]
+Running FOOOFGroup:  88%|########8 | 22/25 [00:04&lt;00:00,  5.23it/s]
+Running FOOOFGroup:  92%|#########2| 23/25 [00:04&lt;00:00,  5.49it/s]
+Running FOOOFGroup:  96%|#########6| 24/25 [00:04&lt;00:00,  5.78it/s]
+Running FOOOFGroup: 100%|##########| 25/25 [00:04&lt;00:00,  5.51it/s]
 </pre></div>
 </div>
 </div>
@@ -499,13 +501,13 @@ for visualization. To do so, you can use the <a class="reference internal" href=
 <p>Now we have explored fitting power spectrum models and running these fits across multiple
 power spectra. Next we dig deeper into how to choose and tune the algorithm settings,
 and how to troubleshoot if any of the fitting goes wrong.</p>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  9.638 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  12.075 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-tutorials-plot-06-fooofgroup-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
-<p><a class="reference download internal" download="" href="../_downloads/551841fea6afd1b2a365663bec9e7ef8/plot_06-FOOOFGroup.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_06-FOOOFGroup.py</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/40853fa18588f82d30281f529a37fc61/plot_06-FOOOFGroup.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_06-FOOOFGroup.py</span></code></a></p>
 </div>
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
-<p><a class="reference download internal" download="" href="../_downloads/d49fe0cacb8bde8dde32384afc5ed2ef/plot_06-FOOOFGroup.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_06-FOOOFGroup.ipynb</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/8f0bcc31a4df79de29eeda1561b8b814/plot_06-FOOOFGroup.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_06-FOOOFGroup.ipynb</span></code></a></p>
 </div>
 </div>
 <p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
@@ -524,8 +526,8 @@ and how to troubleshoot if any of the fitting goes wrong.</p>
       
     </p>
     <p>
-        &copy; Copyright 2018-2020, VoytekLab.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.<br/>
+        &copy; Copyright 2020-2020, NeuroTechX.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.<br/>
     </p>
   </div>
 </footer>

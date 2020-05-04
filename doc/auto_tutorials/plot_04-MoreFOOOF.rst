@@ -387,12 +387,12 @@ which indicates if the current object has model results available.
 
  .. code-block:: none
 
-    aperiodic params:        [-21.44372546   1.07510691]
-    peak params:     [[ 9.81511894  0.72768575  3.00442113]
-     [13.04276139  0.25957048  2.54345949]
-     [18.12826738  0.15093637  4.62563197]]
-    r-squared:       0.9922991774101613
-    fit error:       0.029372423215056263
+    aperiodic params:        [-21.44372547   1.07510691]
+    peak params:     [[ 9.81511897  0.72768575  3.00442116]
+     [13.04276146  0.25957048  2.5434593 ]
+     [18.12826732  0.15093637  4.62563212]]
+    r-squared:       0.992299177438436
+    fit error:       0.02937242314395825
     fooofed spectrum:        [-21.86047574 -21.9455885  -22.01750003 -22.07961578 -22.13385218]
 
 
@@ -569,7 +569,7 @@ the aperiodic component of power spectra.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.939 seconds)
+   **Total running time of the script:** ( 0 minutes  2.020 seconds)
 
 
 .. _sphx_glr_download_auto_tutorials_plot_04-MoreFOOOF.py:

@@ -5,7 +5,7 @@ Examples using ``fooof.FOOOF.plot``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Fitting power spectrum models across 3D arrays of power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Fitting power spectrum models across 3D arrays of power spectra.">
 
 .. only:: html
 
@@ -23,7 +23,7 @@ Examples using ``fooof.FOOOF.plot``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Examples with combining, sub-selecting, dropping, and averaging power spectrum models. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Examples with combining, sub-selecting, dropping, and averaging power spectrum models.">
 
 .. only:: html
 
@@ -59,25 +59,7 @@ Examples using ``fooof.FOOOF.plot``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Parameterizing neural power spectra with MNE, doing a topographical analysis.">
-
-.. only:: html
-
- .. figure:: /auto_examples/analyses/images/thumb/sphx_glr_plot_mne_example_thumb.png
-
-     :ref:`sphx_glr_auto_examples_analyses_plot_mne_example.py`
-
-.. raw:: html
-
-    </div>
-
-.. only:: not html
-
- * :ref:`sphx_glr_auto_examples_analyses_plot_mne_example.py`
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="A description and introduction to the power spectrum model. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="A description and introduction to the power spectrum model.">
 
 .. only:: html
 
@@ -95,7 +77,7 @@ Examples using ``fooof.FOOOF.plot``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="A step by step overview of the algorithm for parameterizing neural power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="A step by step overview of the algorithm for parameterizing neural power spectra.">
 
 .. only:: html
 
@@ -113,7 +95,7 @@ Examples using ``fooof.FOOOF.plot``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Further exploring the FOOOF object, including algorithm settings and available methods. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Further exploring the FOOOF object, including algorithm settings and available methods.">
 
 .. only:: html
 
@@ -131,7 +113,7 @@ Examples using ``fooof.FOOOF.plot``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Using FOOOFGroup to run fit models across multiple power spectra.">
 
 .. only:: html
 
@@ -149,7 +131,7 @@ Examples using ``fooof.FOOOF.plot``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Tips &amp; tricks for choosing algorithm settings, tuning fits, and troubleshooting. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Tips &amp; tricks for choosing algorithm settings, tuning fits, and troubleshooting.">
 
 .. only:: html
 
@@ -167,7 +149,7 @@ Examples using ``fooof.FOOOF.plot``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Analyze results from fitting power spectrum models.">
 
 .. only:: html
 

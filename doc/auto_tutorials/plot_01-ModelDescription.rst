@@ -488,7 +488,7 @@ In the next tutorial, we will start to use this model.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  2.032 seconds)
+   **Total running time of the script:** ( 0 minutes  2.598 seconds)
 
 
 .. _sphx_glr_download_auto_tutorials_plot_01-ModelDescription.py:

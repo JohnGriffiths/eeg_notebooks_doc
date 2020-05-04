@@ -23,7 +23,7 @@ Examples using ``fooof.FOOOF.add_data``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="A step by step overview of the algorithm for parameterizing neural power spectra. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="A step by step overview of the algorithm for parameterizing neural power spectra.">
 
 .. only:: html
 
@@ -41,7 +41,7 @@ Examples using ``fooof.FOOOF.add_data``
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Further exploring the FOOOF object, including algorithm settings and available methods. ">
+    <div class="sphx-glr-thumbcontainer" tooltip="Further exploring the FOOOF object, including algorithm settings and available methods.">
 
 .. only:: html
 

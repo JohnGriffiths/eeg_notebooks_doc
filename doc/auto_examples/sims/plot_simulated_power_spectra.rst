@@ -308,7 +308,7 @@ that keep track of the simulation parameters.
 
  .. code-block:: none
 
-    /home/varman/.local/lib/python3.6/site-packages/fooof/core/funcs.py:67: RuntimeWarning: overflow encountered in power
+    /c/Ubuntu_WSL/Code/libraries_of_mine/github/eeg_notebooks_doc/fooof/core/funcs.py:67: RuntimeWarning: overflow encountered in power
       ys = ys + offset - np.log10(knee + xs**exp)
     [SimParams(aperiodic_params=[1, 100, 150], periodic_params=[[4, 0.2, 2], [22, 0.15, 3]], nlv=0.01), SimParams(aperiodic_params=[1, 100, 150], periodic_params=[[4, 0.2, 2], [22, 0.15, 3]], nlv=0.01), SimParams(aperiodic_params=[1, 100, 150], periodic_params=[[4, 0.2, 2], [22, 0.15, 3]], nlv=0.01)]
 
@@ -322,7 +322,7 @@ for simulating groups of power spectra can be found in the `Simulation Parameter
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.706 seconds)
+   **Total running time of the script:** ( 0 minutes  0.941 seconds)
 
 
 .. _sphx_glr_download_auto_examples_sims_plot_simulated_power_spectra.py:

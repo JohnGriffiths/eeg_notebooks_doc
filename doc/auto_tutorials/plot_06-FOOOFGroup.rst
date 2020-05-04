@@ -250,12 +250,12 @@ called ``group_results``, which is a list of FOOOFResults objects.
 
  .. code-block:: none
 
-    [FOOOFResults(aperiodic_params=array([-21.5931594 ,   0.66654701]), peak_params=array([[ 9.4088037 ,  1.44223656,  2.1352059 ],
-           [18.44689676,  0.62328342,  2.36122321]]), r_squared=0.9729477049342996, error=0.05410881194674272, gaussian_params=array([[ 9.4088037 ,  1.45321198,  1.06760295],
-           [18.44689676,  0.62588664,  1.18061161]])), FOOOFResults(aperiodic_params=array([-21.64485744,   0.78116378]), peak_params=array([[ 9.34931443,  1.59788754,  2.05215068],
-           [11.57383428,  0.44989783,  1.24937295],
-           [18.5393173 ,  0.73999236,  2.37682557]]), r_squared=0.9795689271205626, error=0.05326551715353906, gaussian_params=array([[ 9.34931443,  1.6014178 ,  1.02607534],
-           [11.57383428,  0.34781375,  0.62468648],
+    [FOOOFResults(aperiodic_params=array([-21.59315936,   0.66654704]), peak_params=array([[ 9.4088037 ,  1.44223656,  2.1352059 ],
+           [18.44689676,  0.62328342,  2.36122321]]), r_squared=0.9729477045342373, error=0.05410880985124122, gaussian_params=array([[ 9.4088037 ,  1.45321198,  1.06760295],
+           [18.44689676,  0.62588664,  1.18061161]])), FOOOFResults(aperiodic_params=array([-21.64485739,   0.78116383]), peak_params=array([[ 9.34931443,  1.59788754,  2.05215068],
+           [11.57383429,  0.44989783,  1.24937295],
+           [18.5393173 ,  0.73999236,  2.37682557]]), r_squared=0.9795689263732255, error=0.0532655147028167, gaussian_params=array([[ 9.34931443,  1.6014178 ,  1.02607534],
+           [11.57383429,  0.34781375,  0.62468648],
            [18.5393173 ,  0.74005425,  1.18841278]]))]
 
 
@@ -416,11 +416,11 @@ More information about the data you can extract is also documented in the FOOOFR
 
  .. code-block:: none
 
-    [0.66654701 0.78116378 0.97596317 0.35626808 0.6622201  0.58348649
-     0.76028334 0.46594578 0.70975764 0.60541613 0.73824337 0.39581645
-     0.70797691 0.63143897 0.78995518 0.5037686  0.83825231 0.62707641
-     0.72882427 0.71863453 0.74302615 0.8814779  0.35305536 0.39947468
-     0.98214345]
+    [0.66654704 0.78116383 0.9759621  0.35626808 0.66222006 0.58348649
+     0.76028266 0.46594576 0.70975929 0.60541768 0.73824334 0.39581644
+     0.70797692 0.63143898 0.7899552  0.50376863 0.83825231 0.62707581
+     0.72882426 0.71863453 0.74302648 0.88147793 0.35305533 0.39947473
+     0.98214347]
 
 
 
@@ -447,12 +447,12 @@ More information about the data you can extract is also documented in the FOOOFR
     [[ 9.4088037   0.        ]
      [18.44689676  0.        ]
      [ 9.34931443  1.        ]
-     [11.57383428  1.        ]
+     [11.57383429  1.        ]
      [18.5393173   1.        ]
-     [ 9.48181066  2.        ]
-     [11.25615368  2.        ]
-     [12.57271821  2.        ]
-     [18.67595773  2.        ]
+     [ 9.48191921  2.        ]
+     [11.25628275  2.        ]
+     [12.57401454  2.        ]
+     [18.67594487  2.        ]
      [10.61406527  3.        ]]
 
 
@@ -608,7 +608,7 @@ Progress bar options are:
 
  .. code-block:: none
 
-    Running FOOOFGroup:   0%|          | 0/25 [00:00<?, ?it/s]    Running FOOOFGroup:  12%|#2        | 3/25 [00:00<00:01, 13.71it/s]    Running FOOOFGroup:  16%|#6        | 4/25 [00:00<00:01, 10.84it/s]    Running FOOOFGroup:  20%|##        | 5/25 [00:00<00:04,  4.79it/s]    Running FOOOFGroup:  24%|##4       | 6/25 [00:00<00:03,  5.61it/s]    Running FOOOFGroup:  32%|###2      | 8/25 [00:01<00:02,  6.85it/s]    Running FOOOFGroup:  36%|###6      | 9/25 [00:01<00:02,  5.92it/s]    Running FOOOFGroup:  44%|####4     | 11/25 [00:01<00:01,  7.05it/s]    Running FOOOFGroup:  52%|#####2    | 13/25 [00:01<00:01,  7.81it/s]    Running FOOOFGroup:  60%|######    | 15/25 [00:01<00:01,  8.92it/s]    Running FOOOFGroup:  68%|######8   | 17/25 [00:02<00:01,  4.47it/s]    Running FOOOFGroup:  72%|#######2  | 18/25 [00:03<00:01,  4.43it/s]    Running FOOOFGroup:  80%|########  | 20/25 [00:03<00:00,  5.20it/s]    Running FOOOFGroup:  88%|########8 | 22/25 [00:03<00:00,  5.77it/s]    Running FOOOFGroup:  92%|#########2| 23/25 [00:03<00:00,  6.04it/s]    Running FOOOFGroup:  96%|#########6| 24/25 [00:03<00:00,  6.75it/s]    Running FOOOFGroup: 100%|##########| 25/25 [00:03<00:00,  6.57it/s]
+    Running FOOOFGroup:   0%|          | 0/25 [00:00<?, ?it/s]    Running FOOOFGroup:   8%|8         | 2/25 [00:00<00:01, 17.53it/s]    Running FOOOFGroup:  12%|#2        | 3/25 [00:00<00:01, 11.55it/s]    Running FOOOFGroup:  16%|#6        | 4/25 [00:00<00:02,  9.48it/s]    Running FOOOFGroup:  20%|##        | 5/25 [00:00<00:04,  4.06it/s]    Running FOOOFGroup:  24%|##4       | 6/25 [00:01<00:03,  4.89it/s]    Running FOOOFGroup:  32%|###2      | 8/25 [00:01<00:02,  6.06it/s]    Running FOOOFGroup:  36%|###6      | 9/25 [00:01<00:03,  4.82it/s]    Running FOOOFGroup:  44%|####4     | 11/25 [00:01<00:02,  5.63it/s]    Running FOOOFGroup:  48%|####8     | 12/25 [00:01<00:02,  5.99it/s]    Running FOOOFGroup:  56%|#####6    | 14/25 [00:02<00:01,  6.70it/s]    Running FOOOFGroup:  64%|######4   | 16/25 [00:03<00:02,  3.84it/s]    Running FOOOFGroup:  68%|######8   | 17/25 [00:03<00:01,  4.64it/s]    Running FOOOFGroup:  72%|#######2  | 18/25 [00:03<00:01,  4.18it/s]    Running FOOOFGroup:  80%|########  | 20/25 [00:03<00:01,  4.81it/s]    Running FOOOFGroup:  88%|########8 | 22/25 [00:04<00:00,  5.23it/s]    Running FOOOFGroup:  92%|#########2| 23/25 [00:04<00:00,  5.49it/s]    Running FOOOFGroup:  96%|#########6| 24/25 [00:04<00:00,  5.78it/s]    Running FOOOFGroup: 100%|##########| 25/25 [00:04<00:00,  5.51it/s]
 
 
 
@@ -699,7 +699,7 @@ and how to troubleshoot if any of the fitting goes wrong.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  9.638 seconds)
+   **Total running time of the script:** ( 0 minutes  12.075 seconds)
 
 
 .. _sphx_glr_download_auto_tutorials_plot_06-FOOOFGroup.py:
